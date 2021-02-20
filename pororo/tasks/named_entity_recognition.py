@@ -105,7 +105,7 @@ class PororoNerFactory(PororoFactoryBase):
 
             sent_tokenizer = PororoTokenizationFactory(
                 task="tokenization",
-                model="sent_ko",
+                model="word",
                 lang=self.config.lang,
             ).load(device)
 
